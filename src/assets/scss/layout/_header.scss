@@ -216,7 +216,7 @@
 
 		@include breakpoint(xsmall) {
 			.logo {
-				span {
+				span, strong {
 					display: none;
 				}
 			}
