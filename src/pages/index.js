@@ -31,56 +31,58 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>About</h3>
+                                <p>Coming soon!</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/*<Link to="/about" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Events</h3>
+                                <p>Coming soon!</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            {/*<Link to="/events" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Music</h3>
+                                <p>Mihalis Tzouganakis</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/music" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Dance</h3>
+                                {/*<p>Viglatores Chania</p>*/}
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/dance" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Hotel</h3>
+                                <p>Sheraton Springfield</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/hotel" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Contact Us</h3>
+                                <p>We&#39;d love to hear from you</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/contact" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Registration</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>Coming soon!</p>
+                            {/*
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
+                            */}
                         </div>
                     </section>
                 </div>

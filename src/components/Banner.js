@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Banner = (props) => (
-    <section id="banner" className="major">
+    <section id="banner" className="major home-banner">
         <div className="inner">
         {/*
-        
+
             <header className="major">
                 <h1>June 28 - July 3, 2019</h1>
             </header>
