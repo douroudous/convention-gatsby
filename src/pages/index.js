@@ -45,29 +45,26 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Music</h3>
-                                <p>Mihalis Tzouganakis</p>
+                                <h3>Entertainment</h3>
                             </header>
-                            <Link to="/music" className="link primary"></Link>
+                            <Link to="/entertainment" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Dance</h3>
-                                {/*<p>Viglatores Chania</p>*/}
+                                <h3>Sponsors</h3>
+                                <p>Coming soon!</p>
                             </header>
-                            <Link to="/dance" className="link primary"></Link>
+                          {/*  <Link to="/sponsors" className="link primary"></Link>*/}
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Hotel</h3>
-                                <p>Sheraton Springfield</p>
                             </header>
                             <Link to="/hotel" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Contact Us</h3>
-                                <p>We&#39;d love to hear from you</p>
                             </header>
                             <Link to="/contact" className="link primary"></Link>
                         </article>
