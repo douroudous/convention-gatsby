@@ -6,10 +6,16 @@ import Banner from '../components/Banner'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import tzougano from '../assets/images/tzougano-horizontal.jpg'
+import sheraton from '../assets/images/sheraton.jpg'
+import mcdance from '../assets/images/mcdance.jpg'
+import kalitsouni from '../assets/images/kalitsouni.jpg'
+import lyrahump from '../assets/images/lyrahump.jpg'
+import dodgeball from '../assets/images/dodgeball.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -29,40 +35,40 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${mcdance})`}}>
                             <header className="major">
                                 <h3>About</h3>
                                 <p>Coming soon!</p>
                             </header>
                             {/*<Link to="/about" className="link primary"></Link>*/}
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${kalitsouni})`}}>
                             <header className="major">
                                 <h3>Events</h3>
                                 <p>Coming soon!</p>
                             </header>
                             {/*<Link to="/events" className="link primary"></Link>*/}
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${tzougano})`}}>
                             <header className="major">
                                 <h3>Entertainment</h3>
                             </header>
                             <Link to="/entertainment" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${dodgeball})`}}>
                             <header className="major">
                                 <h3>Sponsors</h3>
                                 <p>Coming soon!</p>
                             </header>
                           {/*  <Link to="/sponsors" className="link primary"></Link>*/}
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${sheraton})`}}>
                             <header className="major">
                                 <h3>Hotel</h3>
                             </header>
                             <Link to="/hotel" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${lyrahump})`}}>
                             <header className="major">
                                 <h3>Contact Us</h3>
                             </header>
