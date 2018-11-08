@@ -189,5 +189,6 @@
 
 		@include breakpoint(large) {
 			max-width: 75%;
+			max-height: 75%;
 		}
 	}
