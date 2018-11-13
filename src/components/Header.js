@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-
+/* eslint-disable */
 const Header = (props) => (
     <header id="header" className="alt">
       <Link to="/" className="logo"><strong>PAA</strong> <span>National Convention</span></Link>

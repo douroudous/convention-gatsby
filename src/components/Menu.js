@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-
+/* eslint-disable */
 const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
