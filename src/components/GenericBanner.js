@@ -1,7 +1,7 @@
 import React from 'react'
 
 const GenericBanner = (props) => (
-    <section id="banner" className="style2">
+    <section id="banner" className={`style2 ${props.image}`}>
         <div className="inner">
             <header className="major">
                 <h1>{props.heading}</h1>

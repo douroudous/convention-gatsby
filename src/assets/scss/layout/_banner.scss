@@ -5,10 +5,13 @@
 ///
 
 /* Banner */
+	.tzoug-banner {
+		@include vendor('background-image', 'url("../images/tzougbanner.jpg")');
+	}
+
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/fog.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(2em, 0, (0, 0, 0, 0));
 		background-attachment: fixed;
@@ -23,6 +26,17 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+
+		> .inner {
+			.content {
+				p {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -165,7 +179,7 @@
 				.content {
 					p {
 						br {
-							display: none;
+							display: inline;
 						}
 					}
 				}

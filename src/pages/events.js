@@ -18,8 +18,8 @@ const Events = (props) => (
 
         <GenericBanner
           heading='Events'
-          line1="Here is where we'll put event info"
-          line2="Hopefully it looks good"
+          caption="Here is where we'll put event info"
+          image=""
         />
 
         <div id="main">

@@ -17,17 +17,17 @@ const Entertainment = (props) => (
 
         <GenericBanner
           heading='Entertainment'
-          line1="Featuring"
+          line1="Featuring: "
           line2="Michalis Tzouganakis"
+          image="tzoug-banner"
         />
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Music</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -61,6 +61,13 @@ const Entertainment = (props) => (
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
                         </div>
+                    </div>
+                </section>
+                <section id="one">
+                    <div className="inner">
+                        <header className="major">
+                            <h2>Dance</h2>
+                        </header>
                     </div>
                 </section>
                 <section>
