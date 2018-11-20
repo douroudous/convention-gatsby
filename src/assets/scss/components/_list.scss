@@ -18,7 +18,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 _size(element-margin) 0;
+		// margin: 0 0 _size(element-margin) 0;
 		padding-left: 1em;
 
 		li {
@@ -67,8 +67,8 @@
 			padding-left: 0;
 
 			li {
-				display: inline-block;
-				padding: 0 (_size(element-margin) * 0.5) 0 0;
+				// display: inline-block;
+				padding: 0 0 (_size(element-margin) * 0.5) 0;
 				vertical-align: middle;
 
 				&:last-child {

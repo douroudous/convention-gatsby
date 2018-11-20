@@ -1,0 +1,39 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Videos */
+
+div.videos {
+	display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+	margin: auto;
+	padding: (_size(element-margin) * 0.5) 0;
+}
+
+iframe.video {
+  width: 45%;
+	margin: auto;
+	padding: (_size(element-margin) * 0.5) 0;
+
+}
+
+@include breakpoint(medium) {
+	iframe.video {
+		width: 40%;
+	}
+}
+
+@include breakpoint(small) {
+	div.videos {
+		flex-direction: column;
+	}
+
+	iframe.video {
+		width: 80%;
+	}
+}
