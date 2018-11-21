@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 import GenericBanner from '../components/GenericBanner'
 
 import tzoug from '../assets/images/tzoug.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import viglatores from '../assets/images/viglatores.jpg'
+import pya from '../assets/images/pya.jpg'
 
 const Entertainment = (props) => (
     <Layout>
@@ -42,9 +42,9 @@ const Entertainment = (props) => (
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><a href="https://www.last.fm/music/Mixalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank" className="button">Biography (Last.fm)</a></li>
                                 <li><a href="https://www.facebook.com/MichalisTzouganakis/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
                                 <li><a href="https://www.youtube.com/channel/UCVvAUAmi5F4aojmEZS0P6Ew" rel="noopener noreferrer" target="_blank" className="button">YouTube</a></li>
+                                <li><a href="https://www.last.fm/music/Mixalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank" className="button">Biography (Unofficial)</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Entertainment = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <a className="image">
-                      <img src={tzoug} alt="" />
+                      <img src={viglatores} alt="" />
                     </a>
                     <div className="content">
                         <div className="inner">
@@ -77,27 +77,24 @@ const Entertainment = (props) => (
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><a href="https://www.last.fm/music/Mixalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank" className="button">Biography (Last.fm)</a></li>
-                                <li><a href="https://www.facebook.com/MichalisTzouganakis/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
-                                <li><a href="https://www.youtube.com/channel/UCVvAUAmi5F4aojmEZS0P6Ew" rel="noopener noreferrer" target="_blank" className="button">YouTube</a></li>
+                                <li><a href="https://www.facebook.com/viglatores09/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
+                                <li><a href="https://www.youtube.com/user/viglatores09/" rel="noopener noreferrer" target="_blank" className="button">YouTube</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
                     <a className="image">
-                      <img src={tzoug} alt="" />
+                      <img src={pya} alt="" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Viglatores Chania</h3>
+                                <h3>Pancretan Youth of America</h3>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
-                                <li><a href="https://www.last.fm/music/Mixalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank" className="button">Biography (Last.fm)</a></li>
-                                <li><a href="https://www.facebook.com/MichalisTzouganakis/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
-                                <li><a href="https://www.youtube.com/channel/UCVvAUAmi5F4aojmEZS0P6Ew" rel="noopener noreferrer" target="_blank" className="button">YouTube</a></li>
+                                <li><a href="https://www.facebook.com/groups/14049154750/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
                             </ul>
                         </div>
                     </div>
