@@ -40,11 +40,11 @@ const Entertainment = (props) => (
                             <header className="major">
                                 <h3>Michalis Tzouganakis</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Renowned laouto player Michalis Tzouganakis has brought about important changes to the Cretan traditional song, not only with his interpretation of songs but also with the contemporary sounds he added, without distorting the traditional element. <a href="https://www.last.fm/music/Michalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank">(source)</a></p>
                             <ul className="actions">
                                 <li><a href="https://www.facebook.com/MichalisTzouganakis/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
                                 <li><a href="https://www.youtube.com/channel/UCVvAUAmi5F4aojmEZS0P6Ew" rel="noopener noreferrer" target="_blank" className="button">YouTube</a></li>
-                                <li><a href="https://www.last.fm/music/Mixalis+Tzouganakis/+wiki" rel="noopener noreferrer" target="_blank" className="button">Biography (Unofficial)</a></li>
+                                <li></li>
                             </ul>
                         </div>
                     </div>
