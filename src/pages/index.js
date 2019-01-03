@@ -60,16 +60,14 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${sheraton})`}}>
                             <header className="major">
                                 <h3>Hotel</h3>
-                                <p>Sheraton Springfield</p>
                             </header>
-                            <a href="https://www.marriott.com/hotels/travel/bdlsm-sheraton-springfield-monarch-place-hotel/" rel="noopener noreferrer" target="_blank"className="link primary"></a>
+                            <Link to="/hotel" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${lyrahump})`}}>
                             <header className="major">
                                 <h3>Contact Us</h3>
-                                <p>Coming soon!</p>
                             </header>
-                          {/*  <Link to="/contact" className="link primary"></Link>*/}
+                            <Link to="/contact" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">

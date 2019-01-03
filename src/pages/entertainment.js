@@ -11,7 +11,7 @@ import pya from '../assets/images/pya.jpg'
 const Entertainment = (props) => (
     <Layout>
         <Helmet>
-            <title>Entertainment</title>
+            <title>Entertainment - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Entertainment" />
         </Helmet>
 
@@ -93,7 +93,7 @@ const Entertainment = (props) => (
                                 <h3>Pancretan Youth of America</h3>
                             </header>
                             <p>The PYA is the oldest federation of Greek American youth organizations in the nation, with twenty organized youth chapters through the US.</p>
-                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:alexander_hatzis@yahoo.com">alexander_hatzis@yahoo.com</a>.</p>
+                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>.</p>
                             <ul className="actions">
                                 <li><a href="https://www.facebook.com/groups/14049154750/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
                             </ul>

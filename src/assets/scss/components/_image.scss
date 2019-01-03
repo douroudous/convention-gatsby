@@ -52,11 +52,15 @@
 			width: 100%;
 
 			img {
-				width: 100%;
+				width: 60%;
 			}
 
 			@include breakpoint(small) {
 				margin: (_size(element-margin) * 0.75) 0;
+
+				img {
+					width: 100%;
+				}
 			}
 		}
 	}
