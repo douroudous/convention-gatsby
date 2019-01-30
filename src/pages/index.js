@@ -32,17 +32,15 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${mcdance})`}}>
                             <header className="major">
-                                <h3>About</h3>
-                                <p>Coming soon!</p>
+                                <h3>Welcome!</h3>
                             </header>
-                            {/*<Link to="/about" className="link primary"></Link>*/}
+                            <Link to="/about" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${kalitsouni})`}}>
                             <header className="major">
                                 <h3>Events</h3>
-                                <p>Coming soon!</p>
                             </header>
-                            {/*<Link to="/events" className="link primary"></Link>*/}
+                            <Link to="/events" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${tzougano})`}}>
                             <header className="major">
@@ -52,9 +50,9 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${dodgeball})`}}>
                             <header className="major">
-                                <h3>Sponsors and Album</h3>
+                                <h3>Sponsors & Album</h3>
                             </header>
-                          {/*  <Link to="/sponsors" className="link primary"></Link>*/}
+                            <Link to="/sponsors" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${sheraton})`}}>
                             <header className="major">
@@ -75,12 +73,10 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Registration</h2>
                             </header>
-                            <p>Coming soon!</p>
-                            {/*
+                            <p>Online registration coming soon!</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                              <li><Link to="/registration" className="button next">Mail Registration</Link></li>
                             </ul>
-                            */}
                         </div>
                     </section>
                 </div>
