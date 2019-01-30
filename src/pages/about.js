@@ -2,23 +2,22 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import welcomeLetter from '../assets/images/welcome-letter.pdf'
 
 const About = (props) => (
     <Layout>
         <Helmet>
-            <title>About</title>
+            <title>About - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Welcome!</h1>
-                    </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>PUT PDF HERE</p>
+                  <header className="major">
+                      <h1>Welcome</h1>
+                  </header>
+                  <embed src={welcomeLetter} type="application/pdf" width="70%" height="1150px" />
                 </div>
             </section>
         </div>

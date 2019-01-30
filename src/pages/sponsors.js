@@ -2,23 +2,24 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import sponsorForm from '../assets/images/sponsorship-form.pdf'
+import albumForm from '../assets/images/album-form.pdf'
 
 const Sponsors = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>Sponsors - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
-                        <h1>Sponsors</h1>
-                    </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>pdfssss here</p>
+                  <header className="major">
+                      <h1>Sponsors</h1>
+                  </header>
+                  <embed src={sponsorForm} type="application/pdf" width="70%" height="1150px" />
+                  <embed src={albumForm} type="application/pdf" width="70%" height="1150px" />
                 </div>
             </section>
         </div>

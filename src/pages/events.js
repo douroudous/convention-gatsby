@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Events = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
+            <title>Events - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
