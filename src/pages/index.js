@@ -10,6 +10,8 @@ import mcdance from '../assets/images/mcdance.jpg'
 import kalitsouni from '../assets/images/kalitsouni.jpg'
 import lyrahump from '../assets/images/lyrahump.jpg'
 import dodgeball from '../assets/images/dodgeball.jpg'
+import adultRegistration from '../assets/images/adult-registration.pdf'
+import youthRegistration from '../assets/images/youth-registration.pdf'
 
 
 class HomeIndex extends React.Component {
@@ -75,7 +77,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Online registration coming soon!</p>
                             <ul className="actions">
-                              <li><Link to="/register" className="button next">Registration Forms</Link></li>
+                              <li><a href={adultRegistration} className="button next">Adult  Form</a></li>
+                              <li><a href={youthRegistration} className="button next">PYA  Form</a></li>
                             </ul>
                         </div>
                     </section>
