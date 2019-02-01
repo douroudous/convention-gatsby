@@ -51,10 +51,10 @@ const Entertainment = (props) => (
                 </section>
                 <section>
                   <div className="videos">
-                    <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/r3M5ruVficM"></iframe>
-                    <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/73Q4xodYBdk"></iframe>
-                    <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/haRsHWGLnAY"></iframe>
-                    <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/DWA5T9trepM"></iframe>
+                    <iframe title="tzougvid1" className="video" width="420" height="315" src="https://www.youtube.com/embed/r3M5ruVficM"></iframe>
+                    <iframe title="tzougvid1" className="video" width="420" height="315" src="https://www.youtube.com/embed/73Q4xodYBdk"></iframe>
+                    <iframe title="tzougvid1" className="video" width="420" height="315" src="https://www.youtube.com/embed/haRsHWGLnAY"></iframe>
+                    <iframe title="tzougvid1" className="video" width="420" height="315" src="https://www.youtube.com/embed/DWA5T9trepM"></iframe>
                   </div>
                 </section>
             </section>

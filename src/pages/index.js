@@ -77,8 +77,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Online registration coming soon!</p>
                             <ul className="actions">
-                              <li><a href={adultRegistration} className="button next">Adult  Form</a></li>
-                              <li><a href={youthRegistration} className="button next">PYA  Form</a></li>
+                              <li><a href={adultRegistration} className="button next">Adult Form</a></li>
+                              <li><a href={youthRegistration} className="button next">PYA Form</a></li>
                             </ul>
                         </div>
                     </section>
