@@ -32,11 +32,11 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${mcdance})`}}>
+                        <article style={{backgroundImage: `url(${dodgeball})`}}>
                             <header className="major">
                                 <h3>Welcome!</h3>
                             </header>
-                            <Link to="/about" className="link primary"></Link>
+                            <Link to="/welcome" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${kalitsouni})`}}>
                             <header className="major">
@@ -50,11 +50,11 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/entertainment" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${dodgeball})`}}>
+                        <article style={{backgroundImage: `url(${mcdance})`}}>
                             <header className="major">
-                                <h3>Sponsors & Album</h3>
+                                <h3>Dance Groups</h3>
                             </header>
-                            <Link to="/sponsors" className="link primary"></Link>
+                            <Link to="/dance" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${sheraton})`}}>
                             <header className="major">
@@ -65,7 +65,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${lyrahump})`}}>
                             <header className="major">
                                 <h3>Contact Us</h3>
-                                <p>Dance groups, Rizites, Open Mic</p>
+                                <p>Sponsorship, Album, Rizites, Open Mic</p>
                             </header>
                             <Link to="/contact" className="link primary"></Link>
                         </article>
@@ -77,8 +77,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>Online registration coming soon!</p>
                             <ul className="actions">
-                              <li><a href={adultRegistration} className="button next">Adult Form</a></li>
-                              <li><a href={youthRegistration} className="button next">PYA Form</a></li>
+                              <li><a href={adultRegistration} rel="noopener noreferrer" target="_blank" className="button next">Adult Form</a></li>
+                              <li><a href={youthRegistration} rel="noopener noreferrer" target="_blank" className="button next">PYA Form</a></li>
                             </ul>
                         </div>
                     </section>
