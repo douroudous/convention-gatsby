@@ -9,6 +9,10 @@
 		@include vendor('background-image', 'url("../images/tzougbanner.jpg")');
 	}
 
+	.dance-banner {
+		// @include vendor('background-image', 'url("../images/something.jpg")');
+	}
+
 
 	#banner {
 		@include vendor('align-items', 'center');

@@ -79,7 +79,7 @@ const Events = (props) => (
                                   <td>Tuesday 7/2</td>
                                   <td>Grand Banquet</td>
                                   <td>Sheraton Monarch Place</td>
-                                  <td>The grandest of all banquets unfolds as our hotel grand ballroom is transformed to provide an evening of elegance. It begins with a cocktail party followed by a delicious sit-down dinner. \Meet our honored guests and be inspired by our keynote speaker, Dr Emmanuel E. Zervos. The evening will conclude with Cretan dancers and music. You won’t want to miss this elegant affair. Formal attire.</td>
+                                  <td>The grandest of all banquets unfolds as our hotel grand ballroom is transformed to provide an evening of elegance. It begins with a cocktail party followed by a delicious sit-down dinner. Meet our honored guests and be inspired by our keynote speaker, Dr Emmanuel E. Zervos. The evening will conclude with Cretan dancers and music. You won’t want to miss this elegant affair. Formal attire.</td>
                                 </tr>
                                 <tr>
                                   <td>Tuesday 7/2</td>

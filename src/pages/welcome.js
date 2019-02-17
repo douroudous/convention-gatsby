@@ -6,10 +6,10 @@ import welcomeLetterPng from '../assets/images/welcome-letter.png'
 import welcomeLetterPdf from '../assets/images/welcome-letter.pdf'
 
 
-const About = (props) => (
+const Welcome = (props) => (
     <Layout>
         <Helmet>
-            <title>About - Pancretan Association of America - 46th National Convention</title>
+            <title>Welcome - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
@@ -28,4 +28,4 @@ const About = (props) => (
     </Layout>
 )
 
-export default About
+export default Welcome
