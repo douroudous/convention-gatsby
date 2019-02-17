@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import GenericBanner from '../components/GenericBanner'
 
+import danceRizitesForm from '../assets/images/dance-rizites-form.pdf'
 import mcdance from '../assets/images/mcdance.jpg'
 
 
@@ -63,6 +63,17 @@ const Dance = (props) => (
                     </div>
                 </section>
                 */}
+            </section>
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                        <h2>Group Registration</h2>
+                    </header>
+                    <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>. More information in the form below!</p>
+                    <ul className="actions">
+                      <li><a href={danceRizitesForm} rel="noopener noreferrer" target="_blank" className="button">Dance/Rizites Form</a></li>
+                    </ul>
+                </div>
             </section>
         </div>
 

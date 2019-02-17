@@ -31,7 +31,7 @@ const Contact = (props) => (
                             <header className="major">
                                 <h3>Sponsorships</h3>
                             </header>
-                            <p>BLURB HERE ABOUT SUPPORTING OUR CHAPTER</p>
+                            <p>More information in the form below!</p>
                             <ul className="actions">
                               <li><a href={sponsorForm} rel="noopener noreferrer" target="_blank" className="button">Sponsorship Form</a></li>
                             </ul>
@@ -47,7 +47,7 @@ const Contact = (props) => (
                             <header className="major">
                                 <h3>Commemorative Album</h3>
                             </header>
-                            <p>BLURB HERE ABOUT SUPPORTING OUR CHAPTER AND BUYING A CONVENTION ALBUM</p>
+                            <p>More information in the form below!</p>
                             <ul className="actions">
                               <li><a href={albumForm} rel="noopener noreferrer" target="_blank" className="button">Album Form</a></li>
                             </ul>

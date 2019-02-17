@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import GenericBanner from '../components/GenericBanner'
@@ -7,6 +6,7 @@ import GenericBanner from '../components/GenericBanner'
 import tzoug from '../assets/images/tzoug.jpg'
 import viglatores from '../assets/images/viglatores.jpg'
 import pya from '../assets/images/pya.jpg'
+import danceRizitesForm from '../assets/images/dance-rizites-form.pdf'
 
 const Entertainment = (props) => (
     <Layout>
@@ -93,9 +93,12 @@ const Entertainment = (props) => (
                                 <h3>Pancretan Youth of America</h3>
                             </header>
                             <p>The PYA is the oldest federation of Greek American youth organizations in the nation, with twenty organized youth chapters through the US.</p>
-                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>.</p>
                             <ul className="actions">
                                 <li><a href="https://www.facebook.com/groups/14049154750/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
+                            </ul><hr/>
+                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>. More information in the form below!</p>
+                            <ul className="actions">
+                              <li><a href={danceRizitesForm} rel="noopener noreferrer" rel="noopener noreferrer" target="_blank" className="button">Dance/Rizites Form</a></li>
                             </ul>
                         </div>
                     </div>
