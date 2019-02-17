@@ -1,13 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import GenericBanner from '../components/GenericBanner'
 
-
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import danceRizitesForm from '../assets/images/dance-rizites-form.pdf'
+import sponsorForm from '../assets/images/sponsorship-form.pdf'
+import albumForm from '../assets/images/album-form.pdf'
 
 const Contact = (props) => (
     <Layout>
@@ -18,66 +16,70 @@ const Contact = (props) => (
 
         <GenericBanner
           heading='Contact Us'
-          line1="Rizites, Open Mic, "
-          line2="Sponsorship, Album"
+          line1="Sponsorships, Album, "
+          line2="Rizites, Open Mic"
         />
 
         <div id="main">
-            <div className="inner"></div>
             <section className="spotlights">
                 <section>
-                    <img src={pic08} alt="" />
+                    <a className="image">
+                      {/*<img src={pic08} alt="" />*/}
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Sponsorships</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>BLURB HERE ABOUT SUPPORTING OUR CHAPTER</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                              <li><a href={sponsorForm} rel="noopener noreferrer" target="_blank" className="button">Sponsorship Form</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <img src={pic09} alt="" />
+                    <a className="image">
+                    {/*<img src={pic08} alt="" />*/}
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Commemorative Album</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>BLURB HERE ABOUT SUPPORTING OUR CHAPTER AND BUYING A CONVENTION ALBUM</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                              <li><a href={albumForm} rel="noopener noreferrer" target="_blank" className="button">Album Form</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <img src={pic10} alt="" />
+                    <a className="image">
+                    {/*<img src={pic08} alt="" />*/}
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Rizitiko Group</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Join the Springfield Rizites for this momentous occasion! No previous Rizitika singing experience required. More information in the form below.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                              <li><a href={danceRizitesForm} rel="noopener noreferrer" target="_blank" className="button">Dance/Rizites Form</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <img src={pic10} alt="" />
+                    <a className="image">
+                    {/*<img src={pic08} alt="" />*/}
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Open Mic Night</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Are you a Cretan musician interested in performing at our Open Mic Night event? Contact Vasili Hatzis at <a href="mailto:vhatzis@comcast.net">vhatzis@comcast.net</a>.</p>
                         </div>
                     </div>
                 </section>

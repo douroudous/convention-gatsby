@@ -65,7 +65,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${lyrahump})`}}>
                             <header className="major">
                                 <h3>Contact Us</h3>
-                                <p>Rizites, Open Mic, Sponsorship, Album</p>
+                                <p>Sponsorship, Album, Rizites, Open Mic</p>
                             </header>
                             <Link to="/contact" className="link primary"></Link>
                         </article>
