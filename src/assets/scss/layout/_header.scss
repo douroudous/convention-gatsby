@@ -83,6 +83,12 @@
 					padding-right: 1.5em;
 				}
 
+				&.register-header {
+					@include breakpoint(small) {
+						display: none;
+					}
+				}
+
 				&.menu-link {
 					padding-right: 3.325em !important;
 
