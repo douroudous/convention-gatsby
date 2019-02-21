@@ -96,9 +96,9 @@ const Entertainment = (props) => (
                             <ul className="actions">
                                 <li><a href="https://www.facebook.com/groups/14049154750/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
                             </ul><hr/>
-                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>. More information in the form below!</p>
+                            <p>Is your dance group interested in performing at the convention? Please fill out the form below. Contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a> with any questions.</p>
                             <ul className="actions">
-                              <li><a href={danceRizitesForm} rel="noopener noreferrer" rel="noopener noreferrer" target="_blank" className="button">Dance/Rizites Form</a></li>
+                              <li><a href="/dance" className="button">Youth Dance Groups</a></li>
                             </ul>
                         </div>
                     </div>
