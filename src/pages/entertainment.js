@@ -6,7 +6,6 @@ import GenericBanner from '../components/GenericBanner'
 import tzoug from '../assets/images/tzoug.jpg'
 import viglatores from '../assets/images/viglatores.jpg'
 import pya from '../assets/images/pya.jpg'
-import danceRizitesForm from '../assets/images/dance-rizites-form.pdf'
 
 const Entertainment = (props) => (
     <Layout>
@@ -32,9 +31,9 @@ const Entertainment = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <a className="image">
+                    <div className="image">
                       <img src={tzoug} alt="" />
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -67,9 +66,9 @@ const Entertainment = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <a className="image">
+                    <div className="image">
                       <img src={viglatores} alt="" />
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -84,9 +83,9 @@ const Entertainment = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a className="image">
+                    <div className="image">
                       <img src={pya} alt="" />
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">

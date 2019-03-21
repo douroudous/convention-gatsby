@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import GenericBanner from '../components/GenericBanner'
 
-import danceRizitesForm from '../assets/images/dance-rizites-form.pdf'
 import mcdance from '../assets/images/mcdance.jpg'
 
 
@@ -29,9 +28,9 @@ const Dance = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <a className="image">
+                    <div className="image">
                       <img src={mcdance} alt="" />
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -70,7 +69,7 @@ const Dance = (props) => (
                         <h2>Group Registration</h2>
                     </header>
                     <p>Is your dance group interested in performing at the convention? Please fill out the form below. Contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a> with any questions.</p>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvyXOuxMxrdQWGdLZLy9IzjDbkNMN8FbW4LYYbQ4JdCQ_IaA/viewform?embedded=true" className="dance-form" width="640" height="1491" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <iframe title='dance-form' src="https://docs.google.com/forms/d/e/1FAIpQLSdvyXOuxMxrdQWGdLZLy9IzjDbkNMN8FbW4LYYbQ4JdCQ_IaA/viewform?embedded=true" className="dance-form" width="640" height="1491" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 </div>
             </section>
         </div>

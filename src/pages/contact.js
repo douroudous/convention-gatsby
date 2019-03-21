@@ -23,9 +23,9 @@ const Contact = (props) => (
         <div id="main">
             <section className="spotlights">
                 <section>
-                    <a className="image">
+                    <div className="image">
                       {/*<img src={pic08} alt="" />*/}
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -39,9 +39,9 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a className="image">
+                    <div className="image">
                     {/*<img src={pic08} alt="" />*/}
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -55,9 +55,9 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a className="image">
+                    <div className="image">
                     {/*<img src={pic08} alt="" />*/}
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -71,9 +71,9 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a className="image">
+                    <div className="image">
                     {/*<img src={pic08} alt="" />*/}
-                    </a>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
