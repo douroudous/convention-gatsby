@@ -71,11 +71,16 @@ class HomeIndex extends React.Component {
                         </article>
                     </section>
                     <section id="two">
-                        <div className="inner">
+                        <div className="inner register-now">
+                              <a href="https://46thpaa.eventbrite.com/" rel="noopener noreferrer" target="_blank" className="button special big">Register Online!</a>
+                        </div>
+                    </section>
+                    <section id="two">
+                        <div className="inner register-now">
+                            <h2>Download Registration Forms</h2>
                             <ul className="actions">
-                              <li><a href="https://46thpaa.eventbrite.com/" rel="noopener noreferrer" target="_blank" className="button special big">Register Now!</a></li>
-                              <li><a href={adultRegistration} rel="noopener noreferrer" target="_blank" className="button small">Adult Mail Form</a></li>
-                              <li><a href={youthRegistration} rel="noopener noreferrer" target="_blank" className="button small">PYA Mail Form</a></li>
+                              <li><a href={adultRegistration} rel="noopener noreferrer" target="_blank" className="button icon fa-download big">Adult</a></li>
+                              <li><a href={youthRegistration} rel="noopener noreferrer" target="_blank" className="button icon fa-download big">PYA</a></li>
                             </ul>
                         </div>
                     </section>
