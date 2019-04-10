@@ -71,17 +71,17 @@ const Events = (props) => (
                                 />
                                 <Event
                                   date='Monday 7/1'
-                                  name='Youth BBQ & Game Day'
-                                  location='Elks Picnic Grounds, Springfield'
-                                  description="Join us for a fun day of outdoor games and activities! Soak up some sun while rocking out to some of the gnarliest tunes! And don’t forget to pig out on the all-you-can-eat burgers, dogs, snacks and refreshments! Transportation provided to and from the Elks picnic grounds. Casual/athletic attire."
-                                  mapId = 'QERMaAwxKeo'
-                                />
-                                <Event
-                                  date='Monday 7/1'
                                   name='Women’s Event/Cultural Night'
                                   location='Greek Cultural Center, Springfield'
                                   description="Happy 85th Anniversary Proodos! Here is an opportunity to show how much you appreciate the contributions of the extraordinary Cretan women in your life. Tonight we celebrate Cretan women and culture with great food and entertainment. Join us as we also highlight the 85-year history of the Proodos chapter. Hosted by the Springfield Cretan Ladies Society “Proodos”. Festive attire."
                                   mapId = 'ri1bPGeuAHN2'
+                                />
+                                <Event
+                                  date='Tuesday 7/2'
+                                  name='Youth BBQ & Game Day'
+                                  location='Elks Picnic Grounds, Springfield'
+                                  description="Join us for a fun day of outdoor games and activities! Soak up some sun while rocking out to some of the gnarliest tunes! And don’t forget to pig out on the all-you-can-eat burgers, dogs, snacks and refreshments! Transportation provided to and from the Elks picnic grounds. Casual/athletic attire."
+                                  mapId = 'QERMaAwxKeo'
                                 />
                                 <Event
                                   date='Tuesday 7/2'
