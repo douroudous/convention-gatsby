@@ -12,6 +12,8 @@ import lyrahump from '../assets/images/lyrahump.jpg'
 import dodgeball from '../assets/images/dodgeball.jpg'
 import adultRegistration from '../assets/images/adult-registration.pdf'
 import youthRegistration from '../assets/images/youth-registration.pdf'
+import culturalLetterPdf from '../assets/images/cultural-letter.pdf'
+import culturalLetterPng from '../assets/images/cultural-letter.png'
 
 
 class HomeIndex extends React.Component {
@@ -82,6 +84,13 @@ class HomeIndex extends React.Component {
                               <li><a href={adultRegistration} rel="noopener noreferrer" target="_blank" className="button icon fa-download big">Adult</a></li>
                               <li><a href={youthRegistration} rel="noopener noreferrer" target="_blank" className="button icon fa-download big">PYA</a></li>
                             </ul>
+                        </div>
+                    </section>
+                    <section id="two">
+                        <div className="inner register-now">
+                            <h2>PAA Cultural Letter</h2>
+                            <span className="image main"><img src={culturalLetterPng} alt="" /></span>
+                            <a href={culturalLetterPdf} rel="noopener noreferrer" target="_blank" className="button next">OPEN PDF</a>
                         </div>
                     </section>
                 </div>
