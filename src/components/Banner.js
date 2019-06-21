@@ -7,10 +7,10 @@ import logo from '../assets/images/full_logo.jpg'
 
 const Banner = (props) => (
     <div>
+      <Announcements />
       <section id="banner" className="major home-banner">
         <img className="convention-logo" src={logo} alt="" />
       </section>
-      <Announcements />
       <Register />
     </div>
 )
