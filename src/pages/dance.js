@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import DanceGroup from '../components/DanceGroup'
 import GenericBanner from '../components/GenericBanner'
 
 import mcdance from '../assets/images/mcdance.jpg'
-
+import megalonissos from '../assets/images/megalonissos.png'
 
 const Dance = (props) => (
     <Layout>
@@ -27,41 +28,38 @@ const Dance = (props) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
-                    <div className="image">
-                      <img src={mcdance} alt="" />
-                    </div>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>104 - Minos-Crete Youth</h3>
-                            </header>
-                            <p>Springfield, MA</p>
-                            <ul className="actions">
-                                <li><a href="https://www.facebook.com/CretanYouth/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                {/*
-                <section>
-                    <a className="image">
-                      <img src={pya} alt="" />
-                    </a>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Pancretan Youth of America</h3>
-                            </header>
-                            <p>The PYA is the oldest federation of Greek American youth organizations in the nation, with twenty organized youth chapters through the US.</p>
-                            <p>Is your dance group interested in performing at the convention? Please contact Alex Hatzis at <a href="mailto:ahatzis9988@gmail.com ">ahatzis9988@gmail.com</a>.</p>
-                            <ul className="actions">
-                                <li><a href="https://www.facebook.com/groups/14049154750/" rel="noopener noreferrer" target="_blank" className="button">Facebook</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                */}
+              <DanceGroup
+                name='Minos-Crete Dance Group'
+                image={mcdance}
+                location='Springfield, MA'
+                fb='https://www.facebook.com/CretanYouth/'
+              />
+              <DanceGroup
+                name='Minos-Crete Junior Dance Group '
+                location='Springfield, MA'
+                fb='https://www.facebook.com/CretanYouth/'
+              />
+              <DanceGroup
+                name='Megalonisos Dance Group'
+                image={megalonissos}
+                location='Boston, MA'
+              />
+              <DanceGroup
+                name='Omonoia Junior Dance Group'
+                location='New York, NY'
+              />
+              <DanceGroup
+                name='Omonoia Dance Group'
+                location='Springfield, MA'
+              />
+              <DanceGroup
+                name='Drosoulites of Clearwater'
+                location='Clearwater, FL'
+              />
+              <DanceGroup
+                name='District 3 Dance Group'
+                location='Ohio & Pennsylvania'
+              />
             </section>
             <section>
                 <div className="inner">
