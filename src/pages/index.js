@@ -64,11 +64,11 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/sponsors" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${mcdance})`}}>
+                        <article>
                             <header className="major">
-                                <h3>Viglatores Dance Lessons</h3>
+                                <h3>Dance Lessons</h3>
                             </header>
-                            <Link to="/dance" className="link primary"></Link>
+                            <Link to="/lessons" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${sheraton})`}}>
                             <header className="major">
