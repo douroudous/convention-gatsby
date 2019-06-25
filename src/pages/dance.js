@@ -6,6 +6,8 @@ import GenericBanner from '../components/GenericBanner'
 
 import mcdance from '../assets/images/mcdance.jpg'
 import megalonissos from '../assets/images/megalonissos.png'
+import drosoulites from '../assets/images/drosoulites.jpg'
+import omonoia from '../assets/images/omonoia.jpg'
 
 const Dance = (props) => (
     <Layout>
@@ -45,16 +47,18 @@ const Dance = (props) => (
                 location='Boston, MA'
               />
               <DanceGroup
-                name='Omonoia Junior Dance Group'
+                name='Omonoia Dance Group'
                 location='New York, NY'
+                image={omonoia}
               />
               <DanceGroup
-                name='Omonoia Dance Group'
+                name='Omonoia Junior Dance Group'
                 location='New York, NY'
               />
               <DanceGroup
                 name='Drosoulites of Clearwater'
                 location='Clearwater, FL'
+                image={drosoulites}
               />
               <DanceGroup
                 name='District 3 Dance Group'
