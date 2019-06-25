@@ -9,7 +9,7 @@ import albumForm from '../assets/images/album-form.pdf'
 const Sponsors = (props) => (
     <Layout>
         <Helmet>
-            <title>Contact Us - Pancretan Association of America - 46th National Convention</title>
+            <title>Sponsors - Pancretan Association of America - 46th National Convention</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
