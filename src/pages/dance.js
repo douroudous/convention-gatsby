@@ -50,7 +50,7 @@ const Dance = (props) => (
               />
               <DanceGroup
                 name='Omonoia Dance Group'
-                location='Springfield, MA'
+                location='New York, NY'
               />
               <DanceGroup
                 name='Drosoulites of Clearwater'
