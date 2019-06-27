@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Event = (props) => (
-  <tr>
+  <tr id={props.slug}>
   { props.main ? (
     <td><b><em>{props.date}</em></b></td>
   ) : (

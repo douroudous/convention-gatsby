@@ -16,7 +16,16 @@ const Events = (props) => (
                     <header className="major">
                         <h1>Events</h1>
                     </header>
+                    <ul className="alt2">
+                        <li><a href='#fri'>Friday 6/28</a></li>
+                        <li><a href='#sat'>Saturday 6/29</a></li>
+                        <li><a href='#sun'>Sunday 6/30</a></li>
+                        <li><a href='#mon'>Monday 7/1</a></li>
+                        <li><a href='#tue'>Tuesday 7/2</a></li>
+                        <li><a href='#wed'>Wednesday 7/3</a></li>
+                    </ul>
                     <div className="table-wrapper">
+
                         <table className="alt">
                             <thead>
                                 <tr>
@@ -32,6 +41,7 @@ const Events = (props) => (
                                   date='Friday 6/28'
                                   time='Noon-5:00pm'
                                   name='Event Registration & Merchandise'
+                                  slug='fri'
                                   location='King Edward Suite — Sheraton (3rd floor)'
                                 />
                                 <Event
@@ -52,6 +62,7 @@ const Events = (props) => (
                                 <Event />
                                 <Event
                                   date='Saturday 6/29'
+                                  slug='sat'
                                   time='9:00am-2:00pm'
                                   name='Delegate Registration'
                                   location='Ballroom - Sheraton'
@@ -112,6 +123,7 @@ const Events = (props) => (
                                 <Event />
                                 <Event
                                   date='Sunday 6/30'
+                                  slug='sun'
                                   time='9:30am-noon'
                                   name='Church Liturgy & Coffee Hour'
                                   location='St. George Cathedral'
@@ -151,6 +163,7 @@ const Events = (props) => (
                                 <Event
                                   date='Monday 7/1'
                                   time='7:30am-10:00am'
+                                  slug='mon'
                                   name='Delegate Registration'
                                   location='Ballroom - Sheraton'
                                   description='DELEGATE REGISTRATION ENDS AT 10 AM'
@@ -227,6 +240,7 @@ const Events = (props) => (
                                 <Event
                                   date='Tuesday 7/2'
                                   time='1:30pm-5:00pm'
+                                  slug='tue'
                                   name='Youth Pool Party & BBQ'
                                   main='true'
                                   location='Sheraton Hotel Pool'
@@ -263,6 +277,7 @@ const Events = (props) => (
                                 <Event
                                   date='Wednesday 7/3'
                                   time='8:30am-4:00pm'
+                                  slug='wed'
                                   name='PAA Business Meeting'
                                   location='Ballroom - Sheraton'
                                 />
