@@ -6,7 +6,7 @@ import GenericBanner from '../components/GenericBanner'
 
 import sponsorForm from '../assets/images/sponsorship-form.pdf'
 import albumForm from '../assets/images/album-form.pdf'
-import churchmain from '../assets/images/churchmain.png'
+import churchmain from '../assets/images/church_main.png'
 import oakbarrel from '../assets/images/oakbarrel.png'
 import mannys from '../assets/images/mannys.jpg'
 import whitebirch from '../assets/images/whitebirch.jpg'
