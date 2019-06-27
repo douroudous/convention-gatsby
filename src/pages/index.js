@@ -14,6 +14,7 @@ import adultRegistration from '../assets/images/adult-registration.pdf'
 import youthRegistration from '../assets/images/youth-registration.pdf'
 import culturalLetterPdf from '../assets/images/cultural-letter.pdf'
 import culturalLetterPng from '../assets/images/cultural-letter.png'
+import viglatoresgroup from '../assets/images/viglatoresgroup.jpg'
 
 
 class HomeIndex extends React.Component {
@@ -64,7 +65,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/sponsors" className="link primary"></Link>
                         </article>
-                        <article>
+                        <article style={{backgroundImage: `url(${viglatoresgroup})`}}>
                             <header className="major">
                                 <h3>Dance Lessons</h3>
                             </header>
